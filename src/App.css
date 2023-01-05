@@ -1,0 +1,49 @@
+*{
+  background-color: black;
+  margin: 10px 49px ;
+}
+.div_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.div_carts {
+  text-align: center;
+  border-radius: 5px ;
+  border: 1px rgb(114, 244, 248) solid;
+}
+.logo_img {
+  width: 200px;
+}
+.div_logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul_nav {
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, p{
+  color: rgb(255, 255, 255);
+}
+.input_nav{
+  text-align: center;
+}
+.input{
+  width: 30rem;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 3px rgb(255, 255, 255) solid;
+}
+.inputmas{
+  background-color: aliceblue;
+}
